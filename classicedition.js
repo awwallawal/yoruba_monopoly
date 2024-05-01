@@ -35,7 +35,7 @@ function Card(text, action) {
 }
 
 function corrections() {
-	document.getElementById("cell1name").textContent = "Mediter-ranean Avenue";
+	document.getElementById("cell1name").textContent = "Cocoa House";
 
 	// Add images to enlarges.
 	document.getElementById("enlarge5token").innerHTML += '<img src="images/train_icon.png" height="60" width="65" alt="" style="position: relative; bottom: 20px;" />';
@@ -69,7 +69,7 @@ function citytax() {
 }
 
 var square = [];
-
+/*
 square[0] = new Square("GO", "COLLECT $200 SALARY AS YOU PASS.", "#FFFFFF");
 square[1] = new Square("Mediterranean Avenue", "$60", "#8B4513", 60, 3, 2, 10, 30, 90, 160, 250);
 square[2] = new Square("Community Chest", "FOLLOW INSTRUCTIONS ON TOP CARD", "#FFFFFF");
@@ -110,6 +110,48 @@ square[36] = new Square("Chance", "FOLLOW INSTRUCTIONS ON TOP CARD", "#FFFFFF");
 square[37] = new Square("Park Place", "$350", "#0000FF", 350, 10, 35, 175, 500, 1100, 1300, 1500);
 square[38] = new Square("LUXURY TAX", "Pay $100", "#FFFFFF");
 square[39] = new Square("Boardwalk", "$400", "#0000FF", 400, 10, 50, 200, 600, 1400, 1700, 2000);
+*/
+
+square[0] = new Square("KOJA", "Gba $200 bi o n se koja.", "#FFFFFF");
+square[1] = new Square("Cocoa House", "$60", "#8B4513", 60, 3, 2, 10, 30, 90, 160, 250);
+square[2] = new Square("Community Chest", "Tele alaye to wa lori kaadi akomona", "#FFFFFF");
+square[3] = new Square("Dugbe Market", "$60", "#8B4513", 60, 3, 4, 20, 60, 180, 320, 450);
+square[4] = new Square("Owo Ori", "San $200", "#FFFFFF");
+square[5] = new Square("Ibadan Railway Station", "$200", "#FFFFFF", 200, 1);
+square[6] = new Square("Agodi Gardens", "$100", "#87CEEB", 100, 4, 6, 30, 90, 270, 400, 550);
+square[7] = new Square("Chance", "Tele alaye to wa lori kaadi akomona", "#FFFFFF");
+square[8] = new Square("Ventura Mall", "$100", "#87CEEB", 100, 4, 6, 30, 90, 270, 400, 550);
+square[9] = new Square("Bodija Shopping Complex", "$120", "#87CEEB", 120, 4, 8, 40, 100, 300, 450, 600);
+square[10] = new Square("Se abewo", "", "#FFFFFF");
+square[11] = new Square("University College Hospital", "$140", "#FF0080", 140, 5, 10, 50, 150, 450, 625, 750);
+square[12] = new Square("Capital Building", "$150", "#FFFFFF", 150, 2);
+square[13] = new Square("Agodi Gardens", "$140", "#FF0080", 140, 5, 10, 50, 150, 450, 625, 750);
+square[14] = new Square("Jericho Mall", "$160", "#FF0080", 160, 5, 12, 60, 180, 500, 700, 900);
+square[15] = new Square("Liberty Stadium", "$200", "#FFFFFF", 200, 1);
+square[16] = new Square("Ibadan Polo Club", "$180", "#FFA500", 180, 6, 14, 70, 200, 550, 750, 950);
+square[17] = new Square("Community Chest", "Tele alaye to wa lori kaadi akomona", "#FFFFFF");
+square[18] = new Square("Alalubosa", "$180", "#FFA500", 180, 6, 14, 70, 200, 550, 750, 950);
+square[19] = new Square("Magazine Road", "$200", "#FFA500", 200, 6, 16, 80, 220, 600, 800, 1000);
+square[20] = new Square("Free Parking", "", "#FFFFFF");
+square[21] = new Square("Queens Cinemas", "$220", "#FF0000", 220, 7, 18, 90, 250, 700, 875, 1050);
+square[22] = new Square("Chance", "Tele alaye to wa lori kaadi akomona", "#FFFFFF");
+square[23] = new Square("Ibadan Civic Centre", "$220", "#FF0000", 220, 7, 18, 90, 250, 700, 875, 1050);
+square[24] = new Square("Challenge Bus Terminal", "$240", "#FF0000", 240, 7, 20, 100, 300, 750, 925, 1100);
+square[25] = new Square("Iwo Road Motor Park", "$200", "#FFFFFF", 200, 1);
+square[26] = new Square("Bodija Market", "$260", "#FFFF00", 260, 8, 22, 110, 330, 800, 975, 1150);
+square[27] = new Square("Oja'ba", "$260", "#FFFF00", 260, 8, 22, 110, 330, 800, 975, 1150);
+square[28] = new Square("Ibadan Water Corporation", "$150", "#FFFFFF", 150, 2);
+square[29] = new Square("Kokodome", "$280", "#FFFF00", 280, 8, 24, 120, 360, 850, 1025, 1200);
+square[30] = new Square("Koja Sewon", "Maa lo si ogba ewon. Ma se gba KOJA. Ma se gba $200.", "#FFFFFF");
+square[31] = new Square("Ilaji Resort", "$300", "#008000", 300, 9, 26, 130, 390, 900, 1100, 1275);
+square[32] = new Square("University of Ibadan (Main Gate)", "$300", "#008000", 300, 9, 26, 130, 390, 900, 1100, 1275);
+square[33] = new Square("Community Chest", "Tele alaye to wa lori kaadi akomona", "#FFFFFF");
+square[34] = new Square("Amusement Park", "$320", "#008000", 320, 9, 28, 150, 450, 1000, 1200, 1400);
+square[35] = new Square("Olodo", "$200", "#FFFFFF", 200, 1);
+square[36] = new Square("Chance", "Tele alaye to wa lori kaadi akomona", "#FFFFFF");
+square[37] = new Square("Ibadan Golf Club", "$350", "#0000FF", 350, 10, 35, 175, 500, 1100, 1300, 1500);
+square[38] = new Square("Owo Faaji", "Pay $100", "#FFFFFF");
+square[39] = new Square("IITA", "$400", "#0000FF", 400, 10, 50, 200, 600, 1400, 1700, 2000);
 
 var communityChestCards = [];
 var chanceCards = [];

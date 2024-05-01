@@ -1,5 +1,5 @@
 body {
-	background: #FFFFFF;
+	background: #ffffff;
 	margin: 0px;
 	min-width: 1075px;
 }
@@ -442,7 +442,7 @@ td {
 	position: fixed;
 	border: 2px solid black;
 	width: 235px;
-	height: 275px;
+	height: 390px;
 	background-color: white;
 	z-index: 18;
 	-webkit-user-select: none;

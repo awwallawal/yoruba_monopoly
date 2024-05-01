@@ -2559,8 +2559,8 @@ function play() {
 	if (p.human) {
 		document.getElementById("nextbutton").focus();
 	}
-	document.getElementById("nextbutton").value = "Roll Dice";
-	document.getElementById("nextbutton").title = "Roll the dice and move your token accordingly.";
+	document.getElementById("nextbutton").value = "Roll Dice (Ta daisi)";
+	document.getElementById("nextbutton").title = "Roll the dice and move your token accordingly. (Ta daisi ko si gbe ayo re ni ye igba isiro daisi)";
 
 	$("#die0").hide();
 	$("#die1").hide();
